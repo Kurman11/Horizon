@@ -1,53 +1,12 @@
-li{
-  margin-bottom: 20px;
-  line-height: "24px"
-}
-.logo{
-  width: 290px;
-  height: 130px;
-  text-align: center;
-  line-height: 130px;
-}
+.sideMenu{position: relative; height: 100dvh;}
+.sideMenu .logo { width: 290px; height: 130px; text-align: center; line-height: 130px; margin: 0;}
 
-.spanfont{
-  font-weight: 500px;
-}
 
-.logoimg{
-  width: 24px;
-  height: 24px;
-}
+.menuArea .menu .menuItem {  margin-bottom: 20px; line-height: "24px";}
+.menuItem a {display: flex; align-items: center; gap:0 6px; font-weight: bold; color: #a3aed0; text-decoration: none;}
+.menuItem a.on{ color: #2b3674;}
+.menuItem a img {position: relative; top: -3px; width: 24px; height: 24px;}
 
-/* span{
-  font-weight: bold;
-  color: #A3AED0;
-} */
 
-.bottomdiv{
-  position: relative;
-}
-.bottomimg{
-  position: absolute;
-  left: 10%;
-  z-index: 1001;
-}
-.vector{
-  position: absolute;
-  z-index: 1002;
-  left: 42.5%;
-  top: 50px;
-}
+.memnuBottom {position: absolute; bottom: 30px; left: 50%; transform: translateX(-50%);}
 
-/* .activeStyle{
-  font-weight: bold;
-  color: #2B3674;
-} */
-a {
-  font-weight: bold;
-  color: #A3AED0;
-}
-
-a.on {
-  font-weight: bold;
-  color: #2B3674;
-}

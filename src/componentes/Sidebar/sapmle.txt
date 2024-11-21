@@ -1,0 +1,65 @@
+{
+  /* <nav className={style.menuArea}>
+<ul className={style.menu}>
+  <li className={style.menuItem}>
+    <Link
+      className={pathname === "/Main" ? style.on : ""}
+      to="/Main"
+      style={{ textDecoration: "none" }}
+    >
+      <img src="image/mainimg.png" alt="mainimg" />
+      <span>Dashboard</span>
+    </Link>
+  </li>
+  <li className={style.menuItem}>
+    <Link
+      className={pathname === "/NFT-Marketplace" ? style.on : ""}
+      to="/NFT-Marketplace"
+      style={{ textDecoration: "none" }}
+    >
+      <img src="image/marketimg.png" alt="mainimg" />
+      <span>NFT Marketplace</span>
+    </Link>
+  </li>
+  <li className={style.menuItem}>
+    <Link
+      className={pathname === "/TablesPage" ? style.on : ""}
+      to="/TablesPage"
+      style={{ textDecoration: "none" }}
+    >
+      <img src="image/tableimg.png" alt="mainimg" /> <span>Tables</span>
+    </Link>
+  </li>
+  <li className={style.menuItem}>
+    <Link
+      className={pathname === "/KanbanPage" ? style.on : ""}
+      to="/KanbanPage"
+      style={{ textDecoration: "none" }}
+    >
+      <img src="image/kanbanimg.png" alt="mainimg" />
+      <span>Kanban</span>
+    </Link>
+  </li>
+  <li className={style.menuItem}>
+    <Link
+      className={pathname === "/ProfilePage" ? style.on : ""}
+      to="/ProfilePage"
+      style={{ textDecoration: "none" }}
+    >
+      <img src="image/profileimg.png" alt="mainimg" />
+      <span>Profile</span>
+    </Link>
+  </li>
+  <li className={style.menuItem}>
+    <Link
+      className={pathname === "/SignInPage" ? style.on : ""}
+      to="/SignInPage"
+      style={{ textDecoration: "none" }}
+    >
+      <img src="image/signinimg.png" alt="mainimg" />
+      <span>Sign In</span>
+    </Link>
+  </li>
+</ul>
+</nav> */
+}
