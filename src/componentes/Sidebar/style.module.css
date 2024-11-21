@@ -1,0 +1,53 @@
+li{
+  margin-bottom: 20px;
+  line-height: "24px"
+}
+.logo{
+  width: 290px;
+  height: 130px;
+  text-align: center;
+  line-height: 130px;
+}
+
+.spanfont{
+  font-weight: 500px;
+}
+
+.logoimg{
+  width: 24px;
+  height: 24px;
+}
+
+/* span{
+  font-weight: bold;
+  color: #A3AED0;
+} */
+
+.bottomdiv{
+  position: relative;
+}
+.bottomimg{
+  position: absolute;
+  left: 10%;
+  z-index: 1001;
+}
+.vector{
+  position: absolute;
+  z-index: 1002;
+  left: 42.5%;
+  top: 50px;
+}
+
+/* .activeStyle{
+  font-weight: bold;
+  color: #2B3674;
+} */
+a {
+  font-weight: bold;
+  color: #A3AED0;
+}
+
+a.on {
+  font-weight: bold;
+  color: #2B3674;
+}
