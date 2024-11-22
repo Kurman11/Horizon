@@ -7,33 +7,33 @@ const menuArr = [
   },
   {
     title: "NFT Marketplace",
-    to: "/NFT-Marketplace",
+    to: "/NFTMarketplacePage",
     src: "image/marketimg.png",
-    alt: "mainimg",
+    alt: "marketimg",
   },
   {
     title: "Tables",
     to: "/TablesPage",
-    src: "image/marketimg.png",
-    alt: "mainimg",
+    src: "image/tableimg.png",
+    alt: "tableimg",
   },
   {
     title: "Kanban",
     to: "/KanbanPage",
     src: "image/kanbanimg.png",
-    alt: "mainimg",
+    alt: "kanbanimg",
   },
   {
     title: "Profile",
     to: "/ProfilePage",
     src: "image/profileimg.png",
-    alt: "mainimg",
+    alt: "profileimg",
   },
   {
     title: "Sign In",
     to: "/SignInPage",
     src: "image/signinimg.png",
-    alt: "mainimg",
+    alt: "signinimg",
   },
 ];
 

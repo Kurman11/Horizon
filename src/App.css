@@ -14,7 +14,7 @@ ul {list-style: none;}
 }
 
 .mainbox{
-  background-color: blue;
+  background-color: aqua;
   width: calc(100% - 290px);
   min-height: 100dvh;
 }
