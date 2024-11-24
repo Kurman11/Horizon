@@ -1,3 +1,7 @@
-export default function Main() {
-  return <div>메인 입니다.</div>;
+// import Style from './style.module.css'
+
+export default function Main(props) {
+  return (
+    <div>Main 입니다.</div>
+  )
 }

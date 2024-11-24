@@ -1,0 +1,40 @@
+.sub-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+
+  width: 1090px;
+  height: 59px;
+
+  margin-left: 15px;
+
+  background-color: #f4f7fe;
+
+  .sub-font{
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    color: #2B3674;
+    
+    margin-left: 15px;
+  }
+
+  ul {
+    display: flex;
+
+    height: 59px;
+    margin: 0 15px 5px 0;
+    
+    li {
+      margin: auto 15px 0 30px;
+      color: #4318FF;
+      a {
+        padding: 5px 15px;
+        text-decoration: none;
+        border-radius: 20px;
+        color: #4318FF;
+      }
+    }
+  }
+  li a.on { background-color: white; color: #000; color: #4318FF;}
+}

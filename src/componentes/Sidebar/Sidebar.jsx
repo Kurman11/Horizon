@@ -4,7 +4,6 @@ import MenuArr from "./menu";
 
 export default function Sidebar() {
   const { pathname } = useLocation();
-
   return (
     <div className={style.sideMenu}>
       <h1 className={style.logo}><img src="image/Logo.png" alt="Logo" /></h1>

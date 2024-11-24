@@ -1,0 +1,100 @@
+.NFT-ul{
+  display: flex;
+  
+  li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 350px;
+    height: 370px;
+
+    background-color: white;
+    border-radius: 20px;
+    
+    .img-size{
+      position: relative;
+
+      width: 308px;
+      height: 205px;
+    }
+    .like-Btn{
+      position: absolute;
+
+      width: 34px;
+      height: 34px;
+
+      background-color: white;
+
+      border: none;
+      border-radius: 100%;
+
+      margin: 10px 10px 0 0;
+      cursor: pointer;
+    }
+    .like-Btn-on{
+      position: absolute;
+
+      width: 34px;
+      height: 34px;
+
+      background-color: white;
+
+      border: none;
+      border-radius: 100%;
+
+      margin: 10px 10px 0 0;
+      cursor: pointer;
+
+      color: red;
+    }
+    .like-Btn:hover {
+      cursor: pointer;
+    }
+
+    .NFT-font{
+      display: flex;
+      justify-content: space-between;
+
+      margin: 15px 0 15px 0;
+
+      .NFT-font-main{
+        font-weight: bold;
+        color: #1B2559;
+      }
+      .NFT-font-sub{
+        font-size: 14px;
+        color: #A3AED0;
+      }
+    }
+    .NFT-second-font{
+      display: flex;
+      justify-content: space-between;
+
+      margin: 30px 0 0 0;
+
+      .NFT-second-subfont{
+        font-size: 12px;
+        font-weight: bold;
+        color: #4318FF;
+
+        margin-top: 10px;
+      }
+      .NFT-second-box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        width: 106px;
+        height: 34px;
+
+        background-color: #11047A;
+        
+        border-radius: 20px;
+        color: white;
+        font-size: 14px;
+        
+      }
+    }
+  }
+}
