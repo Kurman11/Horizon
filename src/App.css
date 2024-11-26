@@ -40,4 +40,8 @@ ul {
 
 .section {
   padding: 30px 15px 0;
+  div{
+    display: flex;
+    gap: 15px;
+  }
 }
