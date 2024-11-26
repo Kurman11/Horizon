@@ -1,11 +1,12 @@
-import Style from "./style.module.css";
 import { useState } from "react";
+import Style from "./style.module.css";
 
-export default function Main(props) {
-  const [isActive, setIsActive] = useState(false);
+export default function NFTcard(props) {
+  const [isActive, setIsActive] = useState(props.isGood);
   const handleClick = () => {
     setIsActive(!isActive);
   };
+
   return (
     <figure>
       <div className={Style["nft-img-box"]}>

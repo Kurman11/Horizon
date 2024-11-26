@@ -11,7 +11,7 @@ const data = [
     name: "By Esthera Jackson",
     bit: "0.91 ETH",
     img: cardImage,
-    isGood: false,
+    isGood: true,
     type: "Art",
   },
   {
