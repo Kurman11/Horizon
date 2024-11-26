@@ -7,6 +7,7 @@ import threeImage from "../image/3D.png";
 
 const data = [
   {
+    id: 0,
     title: "Abstract Colors",
     name: "By Esthera Jackson",
     bit: "0.91 ETH",
@@ -15,6 +16,7 @@ const data = [
     type: "Art",
   },
   {
+    id: 1,
     title: "ETH AI Brain",
     name: "By Nick Wilson",
     bit: "2.82 ETH",
@@ -23,6 +25,7 @@ const data = [
     type: "Art",
   },
   {
+    id: 2,
     title: "Mesh Gradients",
     name: "By Will Smith",
     bit: "0.99 ETH",
@@ -32,6 +35,7 @@ const data = [
   },
 
   {
+    id: 3,
     title: "Abstract Colors",
     name: "가동재",
     bit: "0.91 ETH",
@@ -40,6 +44,7 @@ const data = [
     type: "Music",
   },
   {
+    id: 4,
     title: "ETH AI Brain",
     name: "나동재",
     bit: "2.82 ETH",
@@ -48,6 +53,7 @@ const data = [
     type: "Music",
   },
   {
+    id: 5,
     title: "Mesh Gradients",
     name: "다동재",
     bit: "0.99 ETH",
@@ -57,6 +63,7 @@ const data = [
   },
 
   {
+    id: 6,
     title: "Abstract Colors",
     name: "이진영",
     bit: "0.91 ETH",
@@ -65,6 +72,7 @@ const data = [
     type: "Collectibles",
   },
   {
+    id: 7,
     title: "ETH AI Brain",
     name: "박진영",
     bit: "2.82 ETH",
@@ -73,6 +81,7 @@ const data = [
     type: "Collectibles",
   },
   {
+    id: 8,
     title: "Mesh Gradients",
     name: "김민석",
     bit: "0.99 ETH",
@@ -82,6 +91,7 @@ const data = [
   },
 
   {
+    id: 9,
     title: "Abstract Colors",
     name: "김용진",
     bit: "0.91 ETH",
@@ -90,6 +100,7 @@ const data = [
     type: "Sports",
   },
   {
+    id: 10,
     title: "ETH AI Brain",
     name: "심용진",
     bit: "2.82 ETH",
@@ -98,6 +109,7 @@ const data = [
     type: "Sports",
   },
   {
+    id: 11,
     title: "Mesh Gradients",
     name: "박용진",
     bit: "0.99 ETH",

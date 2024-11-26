@@ -2,9 +2,11 @@ import { useState } from "react";
 import Style from "./style.module.css";
 
 export default function NFTcard(props) {
-  const [isActive, setIsActive] = useState(props.isGood);
+  const { isGood, handleGood, id } = props;
+  const [isActive, setIsActive] = useState(isGood);
   const handleClick = () => {
     setIsActive(!isActive);
+    handleGood(id);
   };
 
   return (
