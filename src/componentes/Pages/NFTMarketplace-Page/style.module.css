@@ -1,43 +1,67 @@
-.advertisement{
-  width: 1090px;
-  height: 350px;
+.section-flex {
+  display: flex;
+  gap: 0 15px;
 
-  background-image: url(./image/advertisement.png);
-
-  .advertisement-div{
-    width: 309px;
-    height: 200px;
-
+  width: 100%;
+  .container {
     flex-direction: column;
-    justify-content: space-around;
 
-    margin: 60px 0 0 50px;
+    width: calc(100% - 415px);
 
-    h2{
-      margin: 0;
-      font-size: 28px;
-    }
-    .advertisement-text{
-      color: white;
-    }
-    .advertisement-sub-text{
-      font-size: 13px;
-      color: white;
-    }
-    button{
-      width: 140px;
-      height: 46px;
-  
-      border: none;
+    .advertisement {
+      width: 100%;
+      height: 350px;
+
+      background: url(./image/advertisement.png) no-repeat center / cover;
+
       border-radius: 20px;
-  
-      cursor: pointer;
-      background-color: transparent;
-  
-      &.on{
-        background-color: white;
+
+      .advertisement-div {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+        width: 309px;
+        height: 200px;
+
+        margin: 60px 0 0 50px;
+
+        h2 {
+          margin: 0;
+          font-size: 28px;
+        }
+        .advertisement-text {
+          color: white;
+        }
+        .advertisement-sub-text {
+          font-size: 13px;
+          color: white;
+        }
+        button {
+          width: 140px;
+          height: 46px;
+
+          border: none;
+          border-radius: 20px;
+
+          cursor: pointer;
+          background-color: transparent;
+
+          &.on {
+            background-color: white;
+          }
+        }
       }
     }
-  }
 
+    .card-area {
+      display: flex;
+      gap: 0 15px;
+
+      flex-wrap: wrap;
+
+      margin: 0;
+      padding: 0;
+    }
+  }
 }
