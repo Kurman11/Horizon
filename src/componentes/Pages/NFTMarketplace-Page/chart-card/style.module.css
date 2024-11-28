@@ -1,0 +1,38 @@
+.figure-chart{
+  align-items: center;
+  .main-img{
+    width: 66px;
+    height: 66px;
+  }
+  .title-div{
+    flex-direction: column;
+    gap : 0;
+    .main-title{
+      font-weight: bold;
+      font-size: 14px;
+    }
+    .sub-title{
+      font-size: 12px;
+      color: #A3AED0;
+    }
+  }
+  .eth-div{
+    gap: 5px;
+
+    .eth-img{
+      width: 9px;
+      height: 15px;
+      margin-top: 3px;
+    }
+    .eth-font{
+      font-size: 14px;
+      font-weight: bold;
+      color: #2B3674;
+    }
+  }
+  
+  .ago-font{
+    font-size: 13px;
+    color: #A3AED0;
+  }
+}

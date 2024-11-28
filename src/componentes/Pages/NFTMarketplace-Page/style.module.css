@@ -1,0 +1,43 @@
+.advertisement{
+  width: 1090px;
+  height: 350px;
+
+  background-image: url(./image/advertisement.png);
+
+  .advertisement-div{
+    width: 309px;
+    height: 200px;
+
+    flex-direction: column;
+    justify-content: space-around;
+
+    margin: 60px 0 0 50px;
+
+    h2{
+      margin: 0;
+      font-size: 28px;
+    }
+    .advertisement-text{
+      color: white;
+    }
+    .advertisement-sub-text{
+      font-size: 13px;
+      color: white;
+    }
+    button{
+      width: 140px;
+      height: 46px;
+  
+      border: none;
+      border-radius: 20px;
+  
+      cursor: pointer;
+      background-color: transparent;
+  
+      &.on{
+        background-color: white;
+      }
+    }
+  }
+
+}
