@@ -1,0 +1,21 @@
+progress {
+  width: 64px;
+}
+
+.chart-card{
+  display: flex;
+  gap: 5px;
+  padding: 10px 0 10px 0;
+  .flex-div{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    td:nth-child(1){
+      width: 40px;
+    }
+    td:nth-child(2){
+      color: #A3AED0;
+    }
+  }
+}

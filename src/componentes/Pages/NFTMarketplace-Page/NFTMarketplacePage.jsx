@@ -5,6 +5,7 @@ import NFTcard from "./NFTcard/NFTcard.jsx";
 import GropImage from "./image/Group.png";
 import Mock from "./mock/dummy.js";
 import Chart from "./chart/Chart.jsx";
+import ChartCreators from "./ChartCreators/ChartCreators.jsx";
 
 export default function NFTMarketplacePage() {
   const [tab, setTab] = useState("Art");
@@ -84,7 +85,10 @@ export default function NFTMarketplacePage() {
           ))}
         </ul>
       </div>
-      <Chart title={"History"} />
+      <div className={Style['side-card']}>
+        <ChartCreators/>
+        <Chart/>
+      </div>
     </section>
   );
 }

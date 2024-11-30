@@ -1,0 +1,20 @@
+.chart-div {
+  display: flex;
+  justify-content: space-between;
+
+  margin-bottom: 41px;
+  h2 {
+    margin: 0;
+  }
+  button {
+    width: 78px;
+    height: 32px;
+
+    border: none;
+    border-radius: 20px;
+
+    cursor: pointer;
+    background-color: #f4f7fe;
+    color: #4318ff;
+  }
+}

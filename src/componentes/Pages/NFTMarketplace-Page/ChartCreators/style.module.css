@@ -1,0 +1,16 @@
+.section {
+  width: 484px;
+
+  padding: 15px;
+
+  border-radius: 20px;
+  background-color: white;
+
+  table{
+    width: 430px;
+    .chart-tr{
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+}

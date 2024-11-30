@@ -1,6 +1,6 @@
 import Style from "./style.module.css";
 import ChartCard from "../chart-card/ChartCard";
-
+import ChartTop from "../ChartTop/ChartTop.jsx";
 import Mock from "../mock/dummy.js";
 import ETH from "../image/ETHIcon.png";
 
@@ -9,10 +9,7 @@ export default function Chart(props) {
 
   return (
     <section className={Style["section"]}>
-      <div className={Style["chart-div"]}>
-        <h2>{props.title}</h2>
-        <button type="button">See all</button>
-      </div>
+      <ChartTop title={"Top Creatpors"}/>
       <ul className={Style["second-chart"]}>
         {data.map(({ title, name, bit, img }) => (
           <li key={title}>
