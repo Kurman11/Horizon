@@ -9,10 +9,10 @@ export default function Chart(props) {
 
   return (
     <section className={Style["section"]}>
-      <ChartTop title={"Top Creatpors"}/>
+      <ChartTop title={"Top Creatpors"} />
       <ul className={Style["second-chart"]}>
-        {data.map(({ title, name, bit, img }) => (
-          <li key={title}>
+        {data.map(({ title, name, bit, img, id }) => (
+          <li key={id}>
             <ChartCard
               img={img}
               title={title}

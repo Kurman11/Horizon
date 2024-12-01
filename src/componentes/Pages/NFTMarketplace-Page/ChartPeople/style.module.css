@@ -1,21 +1,41 @@
-progress {
-  width: 64px;
-}
+.chart-card {
+  vertical-align: middle;
+  td {
+    height: 62px;
+    > div {
+      display: flex;
+      align-items: center;
+      gap: 0 8px;
 
-.chart-card{
-  display: flex;
-  gap: 5px;
-  padding: 10px 0 10px 0;
-  .flex-div{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    td:nth-child(1){
-      width: 40px;
+      font-weight: bold;
+      color: #2b3674;
     }
-    td:nth-child(2){
-      color: #A3AED0;
+
+    &:nth-child(2) {
+      color: #a3aed0;
+    }
+
+    progress {
+      width: 64px;
+      height: 8px;
+
+      position: relative;
+      top: -5px;
+
+      transition: 0.3s;
+
+      -webkit-appearance: none;
+      appearance: none;
+
+      &::-webkit-progress-bar {
+        background-color: #eff4fb;
+        border-radius: 21px;
+      }
+
+      &::-webkit-progress-value {
+        background-color: #4318ff;
+        border-radius: 21px;
+      }
     }
   }
 }

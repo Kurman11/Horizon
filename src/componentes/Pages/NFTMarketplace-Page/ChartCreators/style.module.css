@@ -6,11 +6,28 @@
   border-radius: 20px;
   background-color: white;
 
-  table{
+  table {
     width: 430px;
-    .chart-tr{
-      display: flex;
-      justify-content: space-between;
+
+    caption {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      margin: -1px;
+      overflow: hidden;
+      clip-path: polygon(0 0, 0 0, 0 0);
+    }
+
+    .chart-tr {
+      box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+      th {
+        height: 22px;
+        padding-bottom: 6px;
+
+        text-align: left;
+        color: #a3aed0;
+        font-weight: 400;
+      }
     }
   }
 }

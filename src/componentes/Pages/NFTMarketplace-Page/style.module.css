@@ -58,7 +58,7 @@
 
     .card-area {
       display: flex;
-      gap: 0 15px;
+      gap: 15px;
 
       flex-wrap: wrap;
 
@@ -66,7 +66,7 @@
       padding: 0;
     }
   }
-  .side-card{
+  .side-card {
     display: flex;
     flex-direction: column;
   }

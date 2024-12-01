@@ -85,9 +85,9 @@ export default function NFTMarketplacePage() {
           ))}
         </ul>
       </div>
-      <div className={Style['side-card']}>
-        <ChartCreators/>
-        <Chart/>
+      <div className={Style["side-card"]}>
+        <ChartCreators />
+        <Chart />
       </div>
     </section>
   );
