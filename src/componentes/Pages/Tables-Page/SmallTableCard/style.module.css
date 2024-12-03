@@ -1,0 +1,63 @@
+.section{
+  width: 774px;
+  height: 354px;
+  margin-left: 15px;
+  padding: 15px;
+
+  border-radius: 20px;
+  background-color: white;
+
+  overflow: auto;
+
+  .chart-div {
+    display: flex;
+    justify-content: space-between;
+  
+    margin-bottom: 41px;
+    h2 {
+      margin: 0;
+    }
+    button {
+      width: 37px;
+      height: 37px;
+  
+      border: none;
+      border-radius: 10px;
+  
+      cursor: pointer;
+      background-color: #f4f7fe;
+      color: #4318ff;
+  
+      font-size: 25px;
+      font-weight: bold;
+    }
+  }
+
+  caption {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    clip-path: polygon(0 0, 0 0, 0 0);
+  }
+  .card-tr {
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+    th {
+      height: 22px;
+      padding-bottom: 6px;
+
+      text-align: left;
+      color: #a3aed0;
+      font-weight: 400;
+
+      cursor: pointer;
+    }
+  }
+  .card-tr-font{
+    td{
+        font-weight: bold;
+        color: #2B3674;
+    }
+    }
+}
