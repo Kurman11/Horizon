@@ -1,0 +1,35 @@
+.section{
+  width: 514px;
+  margin-left: 15px;
+  padding: 15px;
+
+  border-radius: 20px;
+  background-color: white;
+
+  overflow: auto;
+
+  .chart-div {
+    display: flex;
+    justify-content: space-between;
+  
+    margin-bottom: 41px;
+    h2 {
+      margin: 0;
+      color: #2B3674;
+    }
+    button {
+      width: 91.56px;
+      height: 35px;
+  
+      border: none;
+      border-radius: 10px;
+  
+      cursor: pointer;
+      background-color: #f4f7fe;
+      color: #4318ff;
+  
+      font-size: 25px;
+      font-weight: bold;
+    }
+  }
+}

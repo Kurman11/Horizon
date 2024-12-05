@@ -1,0 +1,78 @@
+.box{
+  width: 466px;
+
+  margin: 10px 0 15px 0;
+
+  padding-left: 15px;
+
+  background-color: aliceblue;
+  border-radius: 20px;
+
+  .header-flex{
+    display: flex;
+    justify-content: space-between;
+
+    h3{
+      color: #2B3674;
+    }
+    button{
+      margin-right: 15px;
+
+      border: 0;
+      background-color: transparent;
+      cursor: pointer;
+      & img{
+        width: 17px;
+        height: 17px;
+
+        margin-top: 5px;
+      }
+    }
+  }
+  .card-img{
+    margin-bottom: 15px;
+  }
+  .content-style{
+    color: #A3AED0;
+  }
+
+  .alarm-box {
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 15px;
+    padding-bottom: 25px;
+    
+    .alarm-box-update,
+    .alarm-box-pending,
+    .alarm-box-error,
+    .alarm-box-done{
+      width: 94px;
+      height: 28px;
+
+      margin-right: 15px;
+
+      border-radius: 10px;
+
+      color: white;
+      font-size: 11px;
+      text-align: center;
+      line-height: 28px;
+    }
+
+    .alarm-box-update {
+      background-color: #3965FF;
+    }
+    .alarm-box-pending {
+      background-color: #FFB547;
+    }
+    
+    .alarm-box-error {
+      background-color: #E31A1A;
+    }
+    .alarm-box-done {
+      background-color: #01B574;
+    }
+  }
+  
+}

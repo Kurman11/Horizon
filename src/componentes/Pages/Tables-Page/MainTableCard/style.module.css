@@ -33,31 +33,36 @@
     }
   }
 
-  caption {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    overflow: hidden;
-    clip-path: polygon(0 0, 0 0, 0 0);
-  }
-  .card-tr {
-    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
-    th {
-      height: 22px;
-      padding-bottom: 6px;
+  table{
 
-      text-align: left;
-      color: #a3aed0;
-      font-weight: 400;
-
-      cursor: pointer;
+    width: 100%;
+    
+    caption {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      margin: -1px;
+      overflow: hidden;
+      clip-path: polygon(0 0, 0 0, 0 0);
     }
+    .card-tr {
+      box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+      th {
+        height: 22px;
+        padding-bottom: 6px;
+  
+        text-align: left;
+        color: #a3aed0;
+        font-weight: 400;
+  
+        cursor: pointer;
+      }
+    }
+    .card-tr-font{
+      td{
+          font-weight: bold;
+          color: #2B3674;
+      }
+      }
   }
-  .card-tr-font{
-    td{
-        font-weight: bold;
-        color: #2B3674;
-    }
-    }
 }

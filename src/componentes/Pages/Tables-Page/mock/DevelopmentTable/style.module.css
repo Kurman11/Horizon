@@ -1,0 +1,26 @@
+td{
+  .td-div{
+    .prg {
+      width: 64px;
+      height: 8px;
+    
+      position: relative;
+      top: -5px;
+    
+      transition: 0.3s;
+    
+      -webkit-appearance: none;
+      appearance: none;
+    
+      &::-webkit-progress-bar {
+        background-color: #eff4fb;
+        border-radius: 21px;
+      }
+    
+      &::-webkit-progress-value {
+        background-color: #4318ff;
+        border-radius: 21px;
+      }
+    }
+  }
+}
